@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chamidu Pair Code</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+overflow:hidden;
+}
+
+video{
+position:fixed;
+right:0;
+bottom:0;
+min-width:100%;
+min-height:100%;
+z-index:-1;
+object-fit:cover;
+}
+
+.box{
+background:rgba(0,0,0,0.6);
+padding:30px;
+border-radius:12px;
+text-align:center;
+}
+
+input{
+padding:10px;
+width:200px;
+border:none;
+border-radius:6px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#22c55e;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+#code{
+margin-top:20px;
+font-size:22px;
+color:#22c55e;
+}
+
+</style>
+</head>
+
+<body>
+
+<video autoplay muted loop>
+<source src="1773086093072694expMp4.mp4" type="video/mp4">
+</video>
+
+<div class="box">
+<h2>WhatsApp Pair Code</h2>
+
+<br>
+
+<input id="number" placeholder="Enter number">
+
+<br><br>
+
+<button onclick="getCode()">Get Pair Code</button>
+
+<h3 id="
